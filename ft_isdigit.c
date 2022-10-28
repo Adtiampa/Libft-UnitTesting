@@ -6,15 +6,13 @@
 /*   By: atiampae <atiampae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/14 23:03:24 by atiampae          #+#    #+#             */
-/*   Updated: 2022/10/19 16:16:14 by atiampae         ###   ########.fr       */
+/*   Updated: 2022/10/28 22:23:58 by atiampae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 int	ft_isdigit(int c)
-{
-	if (c >= 48 && c <= 57)
-		return (65);
-	return (0);
+{		
+	return (c <= '9' && c >= '0');
 }

@@ -6,7 +6,7 @@
 /*   By: atiampae <atiampae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/23 21:39:58 by atiampae          #+#    #+#             */
-/*   Updated: 2022/10/23 22:53:21 by atiampae         ###   ########.fr       */
+/*   Updated: 2022/10/28 23:36:06 by atiampae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,6 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	if (!ans)
 		return(0);
 	ft_memcpy(ans, s1, ft_strlen(s1));
-	ft_memcpy(ans + ft_strlen(s1), s2, ft_strlen(s2));	
+	ft_memcpy(ans + ft_strlen(s1), s2, ft_strlen(s2));
 	return (ans);
 }
-

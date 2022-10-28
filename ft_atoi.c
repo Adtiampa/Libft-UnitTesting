@@ -6,18 +6,19 @@
 /*   By: atiampae <atiampae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/25 13:58:27 by atiampae          #+#    #+#             */
-/*   Updated: 2022/10/27 00:09:40 by atiampae         ###   ########.fr       */
+/*   Updated: 2022/10/28 22:25:15 by atiampae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static	int	is_neg (char	c)
+static	int	is_neg(char c)
 {
 	if (c == '-')
 		return (-1);
 	return (1);
 }
+
 int	ft_atoi(const char *str)
 {
 	int	i;
@@ -35,7 +36,7 @@ int	ft_atoi(const char *str)
 		sign = is_neg(str[i]);
 		i++;
 	}
-	while (str[i] && ft_isdigit(str[i]) == 65)
+	while (str[i] && ft_isdigit(str[i]))
 	{
 		result = ((result * 10) + str[i] - '0');
 		i++;

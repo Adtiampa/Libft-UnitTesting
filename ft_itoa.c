@@ -6,7 +6,7 @@
 /*   By: atiampae <atiampae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/28 21:00:25 by atiampae          #+#    #+#             */
-/*   Updated: 2022/10/28 21:00:50 by atiampae         ###   ########.fr       */
+/*   Updated: 2022/10/28 21:02:58 by atiampae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ static size_t	ft_digit(long n)
 	{
 		digit++;
 		n /= 10;
-	}:
+	}
 	return (digit);
 }
 

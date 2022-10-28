@@ -6,7 +6,7 @@
 /*   By: atiampae <atiampae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/28 13:32:28 by atiampae          #+#    #+#             */
-/*   Updated: 2022/10/28 14:36:32 by atiampae         ###   ########.fr       */
+/*   Updated: 2022/10/28 22:29:55 by atiampae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,8 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	size_t	dstlen;
 	size_t	i;
 
-	
+	if (dstsize == 0)
+		return (0);	
 	dstlen = ft_strlen(dst);
 	srclen = ft_strlen(src);
 	if (dstsize < dstlen + 1)
