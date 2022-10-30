@@ -1,17 +1,17 @@
-* ************************************************************************** 
+/* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: atiampae <atiampae@student.42.fr>          +#+  +:+       +#+        */
+/*   By: atiampae <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/19 16:19:12 by atiampae          #+#    #+#             */
-/*   Updated: 2022/10/29 01:02:04 by atiampae         ###   ########.fr       */
+/*   Created: 2022/10/30 21:04:14 by atiampae          #+#    #+#             */
+/*   Updated: 2022/10/30 22:28:05 by atiampae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-//we need to change const char to char to return 
+//we need to change const char to char to return
 char *ft_strchr(const char *s, int c)
 {
 	int	i;

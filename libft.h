@@ -6,7 +6,7 @@
 /*   By: atiampae <atiampae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/14 22:22:00 by atiampae          #+#    #+#             */
-/*   Updated: 2022/10/28 20:53:24 by atiampae         ###   ########.fr       */
+/*   Updated: 2022/10/30 22:53:00 by atiampae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,13 +40,12 @@ void	*ft_memchr(const void *s, int c, size_t n);
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 void	ft_striteri(char *s, void (*f)(unsigned int, char*));
-char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strtrim(char const *s1, char const *set);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
 char	*ft_strdup(const char *s1);
-char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
-size_t	strlcat(char *dst, const char *src, size_t dstsize);
+size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
 char	*ft_itoa(int nb);
+char	*ft_substr(char const *s, unsigned int start, size_t len);
 
 #endif
