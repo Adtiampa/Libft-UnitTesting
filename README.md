@@ -1,6 +1,6 @@
 # 🚀 LIBFT Project - 42 Bangkok
 
-![Ecole 42 Banner](images-42.jpeg)
+![Ecole 42 Banner](images_42.jpeg)
 
 **A deep dive into core C library functions and memory management, reimagined under the 42 Bangkok curriculum.**  
 
